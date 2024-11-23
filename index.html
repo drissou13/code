@@ -1,0 +1,28 @@
+<div id="terminal">
+  <div id="output">
+    <p>🚨 ALERTE DE SÉCURITÉ 🚨</p>
+    <p>
+      Une attaque a été détectée sur le site principal de **TechCorp**. Un pirate, connu sous le nom de 
+      <strong>"BlackByte"</strong>, a infiltré le système et menace de divulguer des données sensibles des utilisateurs.
+    </p>
+    <p>
+      Votre mission : Analyser et corriger les failles dans le fichier suivant. Vous n’avez que 
+      <strong>10 minutes</strong> pour sauver le site. L'horloge tourne...
+    </p>
+    <p>Voici le fichier compromis :</p>
+    <pre id="code">
+&lt;form action="process.php" method="POST"&gt;
+  &lt;label for="username"&gt;Nom d'utilisateur :&lt;/label&gt;
+  &lt;input type="text" name="username" id="username"&gt;
+
+  &lt;label for="password"&gt;Mot de passe :&lt;/label&gt;
+  &lt;input type="text" name="password" id="password"&gt;
+
+  &lt;button type="submit"&gt;Se connecter&lt;/button&gt;
+&lt;/form&gt;
+    </pre>
+  </div>
+  <textarea id="input" placeholder="Corrigez le code ici..."></textarea>
+  <button id="submit-button">Soumettre</button>
+  <p id="feedback"></p>
+</div>
